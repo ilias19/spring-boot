@@ -32,7 +32,7 @@ public class Init {
 		
 		try{
 			
-			Person person1 = Person.builder().name("Schnitzel").build();
+			Person person1 = Person.builder().name("Schnitzell").build();
 			Address address1 = Address.builder().name("villette").person(person1).build();
 			Address address2 = Address.builder().name("villette").person(person1).build();
 			List<Address> addresses = new ArrayList<Address>();
